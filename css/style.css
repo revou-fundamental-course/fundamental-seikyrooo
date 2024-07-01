@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+}
+.nav {
+    background-color: #BEC7C7;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../assets/man.png);
+}
+
+nav>a {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    text-underline-offset: 5px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+.line {
+    background-color: black;
+    height: 0.5px;
+    width: 100%;
+}
+main {
+    padding: 50px;
+    padding-top: 120px;
+    height: 490px;
+    background-image: url(../assets/papyrus.webp);
+}
+.design {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+.subtitle {
+    padding-left: 50px;
+}
+.design>div>img {
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+    align-items: center;
+}
